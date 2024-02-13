@@ -1,3 +1,4 @@
+using System.Collections;
 using Crudite.Types;
 
 namespace Crudite;
@@ -24,11 +25,15 @@ public class LoadableCrudState<TId, T, TRequest, TLoaded> : CrudState<TId, T>
 
     public async Task Load(IEnumerable<TRequest> loadRequests) {
         await PreLoad();
+        await DoLoad(loadRequests);
+        await PostLoad();
+    }
+
+    protected async Task DoLoad(IEnumerable<TRequest> loadRequests) {
         var res  = await _loader.Load(loadRequests);
         foreach (var (req, dtos) in res) {
             await CreateLoaded(req, dtos);
         }
-        await PostLoad();
     }
     
     protected virtual Task<IEnumerable<T>> CreateLoaded(TRequest req, IEnumerable<TLoaded> dtos) {
