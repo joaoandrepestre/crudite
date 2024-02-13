@@ -1,0 +1,6 @@
+*.DotSettings.user
+*.json
+.idea
+bin/
+obj/
+publish/

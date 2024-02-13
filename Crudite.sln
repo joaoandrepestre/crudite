@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crudite", "Crudite\Crudite.csproj", "{84201AE9-73F1-426B-BB1C-965C74898926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crudite.Types", "Crudite.Types\Crudite.Types.csproj", "{97ECCDEE-59F6-4F2E-810E-0A5822736E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crudite.Test", "Crudite.Test\Crudite.Test.csproj", "{18638A1B-A69B-40FA-8297-FA06A9CB99B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84201AE9-73F1-426B-BB1C-965C74898926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84201AE9-73F1-426B-BB1C-965C74898926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84201AE9-73F1-426B-BB1C-965C74898926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84201AE9-73F1-426B-BB1C-965C74898926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ECCDEE-59F6-4F2E-810E-0A5822736E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ECCDEE-59F6-4F2E-810E-0A5822736E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ECCDEE-59F6-4F2E-810E-0A5822736E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ECCDEE-59F6-4F2E-810E-0A5822736E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18638A1B-A69B-40FA-8297-FA06A9CB99B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18638A1B-A69B-40FA-8297-FA06A9CB99B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18638A1B-A69B-40FA-8297-FA06A9CB99B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18638A1B-A69B-40FA-8297-FA06A9CB99B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
